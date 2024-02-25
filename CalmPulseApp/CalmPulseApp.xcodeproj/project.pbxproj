@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11AE5B72B8B674C00A5557B /* CalmPulseApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A11AE5B62B8B674C00A5557B /* CalmPulseApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A11AE5BC2B8B674C00A5557B /* CalmPulseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11AE5BB2B8B674C00A5557B /* CalmPulseAppApp.swift */; };
+		A11AE5BE2B8B674C00A5557B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11AE5BD2B8B674C00A5557B /* ContentView.swift */; };
+		A11AE5C02B8B674E00A5557B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11AE5BF2B8B674E00A5557B /* Assets.xcassets */; };
+		A11AE5C32B8B674E00A5557B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11AE5C22B8B674E00A5557B /* Preview Assets.xcassets */; };
+		A11AE5F52B8B785500A5557B /* CalmButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11AE5F42B8B785500A5557B /* CalmButtonView.swift */; };
+		A11AE5F72B8B789800A5557B /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11AE5F62B8B789800A5557B /* InfoView.swift */; };
+		A11AE5F92B8B78B500A5557B /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11AE5F82B8B78B500A5557B /* PulseView.swift */; };
+		A11AE5FB2B8B78CA00A5557B /* CalmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11AE5FA2B8B78CA00A5557B /* CalmButton.swift */; };
+		A11AE5FD2B8B78EB00A5557B /* CalmButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11AE5FC2B8B78EB00A5557B /* CalmButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A11AE5B82B8B674C00A5557B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11AE5AA2B8B674C00A5557B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11AE5B52B8B674C00A5557B;
+			remoteInfo = "CalmPulseApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A11AE5C92B8B674E00A5557B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A11AE5B72B8B674C00A5557B /* CalmPulseApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A11AE5B02B8B674C00A5557B /* CalmPulseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalmPulseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11AE5B62B8B674C00A5557B /* CalmPulseApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalmPulseApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11AE5BB2B8B674C00A5557B /* CalmPulseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmPulseAppApp.swift; sourceTree = "<group>"; };
+		A11AE5BD2B8B674C00A5557B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A11AE5BF2B8B674E00A5557B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A11AE5C22B8B674E00A5557B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A11AE5F42B8B785500A5557B /* CalmButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmButtonView.swift; sourceTree = "<group>"; };
+		A11AE5F62B8B789800A5557B /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A11AE5F82B8B78B500A5557B /* PulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
+		A11AE5FA2B8B78CA00A5557B /* CalmButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmButton.swift; sourceTree = "<group>"; };
+		A11AE5FC2B8B78EB00A5557B /* CalmButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A11AE5B32B8B674C00A5557B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11AE5A92B8B674C00A5557B = {
+			isa = PBXGroup;
+			children = (
+				A11AE5BA2B8B674C00A5557B /* CalmPulseApp Watch App */,
+				A11AE5B12B8B674C00A5557B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A11AE5B12B8B674C00A5557B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11AE5B02B8B674C00A5557B /* CalmPulseApp.app */,
+				A11AE5B62B8B674C00A5557B /* CalmPulseApp Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A11AE5BA2B8B674C00A5557B /* CalmPulseApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A11AE5F32B8B783D00A5557B /* Styles */,
+				A11AE5F22B8B783400A5557B /* Components */,
+				A11AE5F12B8B782600A5557B /* Views */,
+				A11AE5BB2B8B674C00A5557B /* CalmPulseAppApp.swift */,
+				A11AE5BD2B8B674C00A5557B /* ContentView.swift */,
+				A11AE5BF2B8B674E00A5557B /* Assets.xcassets */,
+				A11AE5C12B8B674E00A5557B /* Preview Content */,
+			);
+			path = "CalmPulseApp Watch App";
+			sourceTree = "<group>";
+		};
+		A11AE5C12B8B674E00A5557B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A11AE5C22B8B674E00A5557B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A11AE5F12B8B782600A5557B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A11AE5F42B8B785500A5557B /* CalmButtonView.swift */,
+				A11AE5F62B8B789800A5557B /* InfoView.swift */,
+				A11AE5F82B8B78B500A5557B /* PulseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A11AE5F22B8B783400A5557B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A11AE5FA2B8B78CA00A5557B /* CalmButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A11AE5F32B8B783D00A5557B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				A11AE5FC2B8B78EB00A5557B /* CalmButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A11AE5AF2B8B674C00A5557B /* CalmPulseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11AE5CA2B8B674E00A5557B /* Build configuration list for PBXNativeTarget "CalmPulseApp" */;
+			buildPhases = (
+				A11AE5AE2B8B674C00A5557B /* Resources */,
+				A11AE5C92B8B674E00A5557B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11AE5B92B8B674C00A5557B /* PBXTargetDependency */,
+			);
+			name = CalmPulseApp;
+			productName = CalmPulseApp;
+			productReference = A11AE5B02B8B674C00A5557B /* CalmPulseApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A11AE5B52B8B674C00A5557B /* CalmPulseApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11AE5C62B8B674E00A5557B /* Build configuration list for PBXNativeTarget "CalmPulseApp Watch App" */;
+			buildPhases = (
+				A11AE5B22B8B674C00A5557B /* Sources */,
+				A11AE5B32B8B674C00A5557B /* Frameworks */,
+				A11AE5B42B8B674C00A5557B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalmPulseApp Watch App";
+			productName = "CalmPulseApp Watch App";
+			productReference = A11AE5B62B8B674C00A5557B /* CalmPulseApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A11AE5AA2B8B674C00A5557B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A11AE5AF2B8B674C00A5557B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A11AE5B52B8B674C00A5557B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A11AE5AD2B8B674C00A5557B /* Build configuration list for PBXProject "CalmPulseApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A11AE5A92B8B674C00A5557B;
+			productRefGroup = A11AE5B12B8B674C00A5557B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A11AE5AF2B8B674C00A5557B /* CalmPulseApp */,
+				A11AE5B52B8B674C00A5557B /* CalmPulseApp Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A11AE5AE2B8B674C00A5557B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11AE5B42B8B674C00A5557B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11AE5C32B8B674E00A5557B /* Preview Assets.xcassets in Resources */,
+				A11AE5C02B8B674E00A5557B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A11AE5B22B8B674C00A5557B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11AE5FD2B8B78EB00A5557B /* CalmButtonStyle.swift in Sources */,
+				A11AE5F72B8B789800A5557B /* InfoView.swift in Sources */,
+				A11AE5BE2B8B674C00A5557B /* ContentView.swift in Sources */,
+				A11AE5F52B8B785500A5557B /* CalmButtonView.swift in Sources */,
+				A11AE5BC2B8B674C00A5557B /* CalmPulseAppApp.swift in Sources */,
+				A11AE5FB2B8B78CA00A5557B /* CalmButton.swift in Sources */,
+				A11AE5F92B8B78B500A5557B /* PulseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A11AE5B92B8B674C00A5557B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A11AE5B52B8B674C00A5557B /* CalmPulseApp Watch App */;
+			targetProxy = A11AE5B82B8B674C00A5557B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A11AE5C42B8B674E00A5557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A11AE5C52B8B674E00A5557B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A11AE5C72B8B674E00A5557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmPulseApp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmPulseApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itis.CalmPulseApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A11AE5C82B8B674E00A5557B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmPulseApp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmPulseApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itis.CalmPulseApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A11AE5CB2B8B674E00A5557B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmPulseApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itis.CalmPulseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A11AE5CC2B8B674E00A5557B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmPulseApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itis.CalmPulseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11AE5AD2B8B674C00A5557B /* Build configuration list for PBXProject "CalmPulseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11AE5C42B8B674E00A5557B /* Debug */,
+				A11AE5C52B8B674E00A5557B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11AE5C62B8B674E00A5557B /* Build configuration list for PBXNativeTarget "CalmPulseApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11AE5C72B8B674E00A5557B /* Debug */,
+				A11AE5C82B8B674E00A5557B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11AE5CA2B8B674E00A5557B /* Build configuration list for PBXNativeTarget "CalmPulseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11AE5CB2B8B674E00A5557B /* Debug */,
+				A11AE5CC2B8B674E00A5557B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A11AE5AA2B8B674C00A5557B /* Project object */;
+}
