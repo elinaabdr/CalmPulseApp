@@ -10,10 +10,11 @@ import SwiftUI
 struct CalmButton: View {
     var imageName: String
     var title: String
+    @State private var isCalmViewPresented = false
     
     var body: some View {
         Button(action: {
-            // Обработчик нажатия кнопки
+            self.isCalmViewPresented.toggle()
         }) {
             ZStack {
                 Image(imageName)
@@ -26,5 +27,8 @@ struct CalmButton: View {
             }
         }
         .buttonStyle(CalmButtonStyle())
+        .sheet(isPresented: $isCalmViewPresented) {
+            CalmView()
+        }
     }
 }
