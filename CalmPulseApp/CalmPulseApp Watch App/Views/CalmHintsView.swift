@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension String {
+private extension String {
     static var firstHint: String {
         "Вдыхайте через нос глубоко, наполняя легкие"
     }

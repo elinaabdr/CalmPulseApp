@@ -54,6 +54,17 @@
                ReferencedContainer = "container:CalmPulseApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF21BE412C08FBBF003F416D"
+               BuildableName = "CalmPulseApp Watch AppUnitTests.xctest"
+               BlueprintName = "CalmPulseApp Watch AppUnitTests"
+               ReferencedContainer = "container:CalmPulseApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

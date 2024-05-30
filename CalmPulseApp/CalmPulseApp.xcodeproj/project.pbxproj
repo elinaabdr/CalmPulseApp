@@ -25,6 +25,8 @@
 		A16F77972C07C04300316A2E /* CalmHintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F77962C07C04300316A2E /* CalmHintsView.swift */; };
 		A16F77992C07C72B00316A2E /* PulseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F77982C07C72B00316A2E /* PulseData.swift */; };
 		A16F779B2C07C7D500316A2E /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F779A2C07C7D500316A2E /* ResultView.swift */; };
+		EF21BE3D2C08E058003F416D /* ResultButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21BE3C2C08E058003F416D /* ResultButtonView.swift */; };
+		EF21BE452C08FBBF003F416D /* CalmPulseApp_Watch_AppUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21BE442C08FBBF003F416D /* CalmPulseApp_Watch_AppUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,13 @@
 			remoteInfo = "CalmPulseApp Watch App";
 		};
 		A16F778D2C07AB7F00316A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11AE5AA2B8B674C00A5557B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11AE5B52B8B674C00A5557B;
+			remoteInfo = "CalmPulseApp Watch App";
+		};
+		EF21BE462C08FBBF003F416D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A11AE5AA2B8B674C00A5557B /* Project object */;
 			proxyType = 1;
@@ -79,6 +88,9 @@
 		A16F77962C07C04300316A2E /* CalmHintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmHintsView.swift; sourceTree = "<group>"; };
 		A16F77982C07C72B00316A2E /* PulseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseData.swift; sourceTree = "<group>"; };
 		A16F779A2C07C7D500316A2E /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		EF21BE3C2C08E058003F416D /* ResultButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultButtonView.swift; sourceTree = "<group>"; };
+		EF21BE422C08FBBF003F416D /* CalmPulseApp Watch AppUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalmPulseApp Watch AppUnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF21BE442C08FBBF003F416D /* CalmPulseApp_Watch_AppUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmPulseApp_Watch_AppUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF21BE3F2C08FBBF003F416D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +123,7 @@
 			children = (
 				A11AE5BA2B8B674C00A5557B /* CalmPulseApp Watch App */,
 				A16F77882C07AB7F00316A2E /* CalmPulseApp Watch AppUITests */,
+				EF21BE432C08FBBF003F416D /* CalmPulseApp Watch AppUnitTests */,
 				A11AE5B12B8B674C00A5557B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +134,7 @@
 				A11AE5B02B8B674C00A5557B /* CalmPulseApp.app */,
 				A11AE5B62B8B674C00A5557B /* CalmPulseApp Watch App.app */,
 				A16F77872C07AB7F00316A2E /* CalmPulseApp Watch AppUITests.xctest */,
+				EF21BE422C08FBBF003F416D /* CalmPulseApp Watch AppUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +142,7 @@
 		A11AE5BA2B8B674C00A5557B /* CalmPulseApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				A16F77982C07C72B00316A2E /* PulseData.swift */,
+				EF21BE3B2C08DF03003F416D /* Model */,
 				A16F77922C07AC6B00316A2E /* MockHealthKitManager.swift */,
 				A16F777F2C07AA3B00316A2E /* HealthKitManager.swift */,
 				A11AE5F32B8B783D00A5557B /* Styles */,
@@ -152,6 +173,7 @@
 				A16F77812C07AB1400316A2E /* CalmView.swift */,
 				A16F77962C07C04300316A2E /* CalmHintsView.swift */,
 				A16F779A2C07C7D500316A2E /* ResultView.swift */,
+				EF21BE3C2C08E058003F416D /* ResultButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +201,22 @@
 				A16F778B2C07AB7F00316A2E /* CalmPulseApp_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "CalmPulseApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		EF21BE3B2C08DF03003F416D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A16F77982C07C72B00316A2E /* PulseData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF21BE432C08FBBF003F416D /* CalmPulseApp Watch AppUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF21BE442C08FBBF003F416D /* CalmPulseApp_Watch_AppUnitTests.swift */,
+			);
+			path = "CalmPulseApp Watch AppUnitTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +252,8 @@
 			dependencies = (
 			);
 			name = "CalmPulseApp Watch App";
+			packageProductDependencies = (
+			);
 			productName = "CalmPulseApp Watch App";
 			productReference = A11AE5B62B8B674C00A5557B /* CalmPulseApp Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -236,6 +276,24 @@
 			productReference = A16F77872C07AB7F00316A2E /* CalmPulseApp Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		EF21BE412C08FBBF003F416D /* CalmPulseApp Watch AppUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF21BE482C08FBBF003F416D /* Build configuration list for PBXNativeTarget "CalmPulseApp Watch AppUnitTests" */;
+			buildPhases = (
+				EF21BE3E2C08FBBF003F416D /* Sources */,
+				EF21BE3F2C08FBBF003F416D /* Frameworks */,
+				EF21BE402C08FBBF003F416D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF21BE472C08FBBF003F416D /* PBXTargetDependency */,
+			);
+			name = "CalmPulseApp Watch AppUnitTests";
+			productName = "CalmPulseApp Watch AppUnitTests";
+			productReference = EF21BE422C08FBBF003F416D /* CalmPulseApp Watch AppUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -243,7 +301,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					A11AE5AF2B8B674C00A5557B = {
@@ -254,6 +312,10 @@
 					};
 					A16F77862C07AB7F00316A2E = {
 						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A11AE5B52B8B674C00A5557B;
+					};
+					EF21BE412C08FBBF003F416D = {
+						CreatedOnToolsVersion = 15.1;
 						TestTargetID = A11AE5B52B8B674C00A5557B;
 					};
 				};
@@ -267,6 +329,8 @@
 				Base,
 			);
 			mainGroup = A11AE5A92B8B674C00A5557B;
+			packageReferences = (
+			);
 			productRefGroup = A11AE5B12B8B674C00A5557B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,6 +338,7 @@
 				A11AE5AF2B8B674C00A5557B /* CalmPulseApp */,
 				A11AE5B52B8B674C00A5557B /* CalmPulseApp Watch App */,
 				A16F77862C07AB7F00316A2E /* CalmPulseApp Watch AppUITests */,
+				EF21BE412C08FBBF003F416D /* CalmPulseApp Watch AppUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,6 +367,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF21BE402C08FBBF003F416D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -310,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11AE5FD2B8B78EB00A5557B /* CalmButtonStyle.swift in Sources */,
+				EF21BE3D2C08E058003F416D /* ResultButtonView.swift in Sources */,
 				A16F77992C07C72B00316A2E /* PulseData.swift in Sources */,
 				A11AE5F72B8B789800A5557B /* InfoView.swift in Sources */,
 				A16F77802C07AA3B00316A2E /* HealthKitManager.swift in Sources */,
@@ -334,6 +407,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF21BE3E2C08FBBF003F416D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF21BE452C08FBBF003F416D /* CalmPulseApp_Watch_AppUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -346,6 +427,11 @@
 			isa = PBXTargetDependency;
 			target = A11AE5B52B8B674C00A5557B /* CalmPulseApp Watch App */;
 			targetProxy = A16F778D2C07AB7F00316A2E /* PBXContainerItemProxy */;
+		};
+		EF21BE472C08FBBF003F416D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A11AE5B52B8B674C00A5557B /* CalmPulseApp Watch App */;
+			targetProxy = EF21BE462C08FBBF003F416D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -593,6 +679,45 @@
 			};
 			name = Release;
 		};
+		EF21BE492C08FBBF003F416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elina.CalmPulseApp-Watch-AppUnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmPulseApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmPulseApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		EF21BE4A2C08FBBF003F416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elina.CalmPulseApp-Watch-AppUnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmPulseApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmPulseApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -628,6 +753,15 @@
 			buildConfigurations = (
 				A16F77902C07AB7F00316A2E /* Debug */,
 				A16F77912C07AB7F00316A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF21BE482C08FBBF003F416D /* Build configuration list for PBXNativeTarget "CalmPulseApp Watch AppUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF21BE492C08FBBF003F416D /* Debug */,
+				EF21BE4A2C08FBBF003F416D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,10 +1,3 @@
-//
-//  ResultViews.swift
-//  CalmPulseApp Watch App
-//
-//  Created by Элина Абдрахманова on 29.05.2024.
-//
-
 import SwiftUI
 
 struct ResultView: View {
@@ -12,23 +5,35 @@ struct ResultView: View {
     
     var body: some View {
         VStack {
-            Text("Выше нормы")
-                .font(.title)
-                .padding()
+            if let pulseRecords = pulseData.pulseMax {
+                Text("Максимальное пульсовое давление: \(pulseRecords)")
+                    .padding()
+            }
             
-            Text("Пульс: \(pulseData.heartRate)")
-                .padding()
+            if let startDate = pulseData.exerciseStartTime {
+                Text("Начало упражнения: \(startDate, formatter: dateFormatter)")
+                    .padding()
+            }
             
-            Text("Дата: \(formattedDate)")
-                .padding()
+            if let endDate = pulseData.exerciseEndTime {
+                Text("Конец упражнения: \(endDate, formatter: dateFormatter)")
+                    .padding()
+            }
+            
+            if let exerciseDate = pulseData.exerciseDate {
+                Text("Дата упражнения: \(exerciseDate, formatter: dateFormatter)")
+                    .padding()
+            }
             
             Spacer()
         }
     }
     
-    private var formattedDate: String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "dd.MM.yyyy HH:mm:ss"
-        return dateFormatter.string(from: pulseData.date)
+    private var dateFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        formatter.timeStyle = .short
+        return formatter
     }
 }
+
